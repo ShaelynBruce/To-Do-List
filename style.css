@@ -1,0 +1,56 @@
+h1{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text: 50px;
+}
+article {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #B0DEFF;
+}
+.task{
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #FFF8A6;
+  border: none;
+  border-radius: 2px;
+  color: #black;
+  font-size: 100%;
+}
+
+.card-container {
+  padding: 30px;
+  background: #FFF8A6;
+  width: 400px;
+  text-align: center;
+  align-content: center;
+}
+
+.notes {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
