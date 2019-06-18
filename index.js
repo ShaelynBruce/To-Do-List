@@ -7,7 +7,7 @@ btn.on("click",toDo);
 function toDo(){
   var task = $('.task').val();
   var notes = $('.notes').val();
-  container.append(`<p class="toDo">${task}</p>`);
+  container.append(`<p class="toDo">${task}: ${notes}</p>`);
   $('.task').val("");//clears input field
   $('.notes').val("");// clears input field
 }
